@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/website/static/js/main.f6030a40.js",
+    "index.html": "/website/index.html",
+    "main.f6030a40.js.map": "/website/static/js/main.f6030a40.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f6030a40.js"
+  ]
+}
