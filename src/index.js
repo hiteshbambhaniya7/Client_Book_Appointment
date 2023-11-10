@@ -25,7 +25,7 @@ function MyRoute() {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <MyRoute />
+  <HomePage />
 );
 
 
