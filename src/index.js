@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import HomePage from './home';
 import Services from './services';
 import ServiceDetails from './service_details';
@@ -9,7 +9,7 @@ import Register from './register';
 
 function MyRoute() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route index element={<HomePage />} />
         
@@ -19,13 +19,13 @@ function MyRoute() {
         <Route path="/register" element={<Register />} />
 
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HomePage />
+  <MyRoute />
 );
 
 
