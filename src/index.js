@@ -9,7 +9,7 @@ import Register from './register';
 
 function MyRoute() {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <Routes>
         <Route index element={<HomePage />} />
         
